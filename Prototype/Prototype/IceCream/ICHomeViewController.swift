@@ -19,7 +19,8 @@ class ICHomeViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        flavorComboData = [
+        view.backgroundColor = .pink
+	flavorComboData = [
             (UIImage(named: "icecream_1"), "Avocado Smash", false),
             (UIImage(named: "icecream_2"), "Matcha-colate Chip", false),
             (UIImage(named: "icecream_3"), "Fried Ice Cream", false),
